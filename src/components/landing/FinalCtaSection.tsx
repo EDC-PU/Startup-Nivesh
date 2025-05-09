@@ -21,7 +21,7 @@ export function FinalCtaSection() {
             className="bg-accent hover:bg-accent/90 text-accent-foreground text-lg px-10 py-6 shadow-xl transform hover:scale-105 transition-transform duration-200"
             asChild
           >
-            <Link href="#application-form-placeholder" scroll={false}>Apply Now &rarr;</Link>
+            <Link href="https://docs.google.com/forms/d/19bLJhT-jui_GFCeY3S0Lldpyr8BVm4YDWwubr-76HJg/viewform?edit_requested=true&pli=1" scroll={false}>Apply Now &rarr;</Link>
           </Button>
         </div>
         <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-left">

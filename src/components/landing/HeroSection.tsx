@@ -21,7 +21,7 @@ export function HeroSection() {
         </p>
         <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
           <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground text-lg px-8 py-6 shadow-lg transform hover:scale-105 transition-transform duration-200" asChild>
-            <Link href="#apply-now-final" scroll={false}>Apply Now &rarr;</Link>
+            <Link href="https://docs.google.com/forms/d/19bLJhT-jui_GFCeY3S0Lldpyr8BVm4YDWwubr-76HJg/viewform?edit_requested=true&pli=1" scroll={false}>Apply Now &rarr;</Link>
           </Button>
           <div className="text-center sm:text-left">
             <p className="text-sm font-semibold text-foreground">Application Deadline:</p>
