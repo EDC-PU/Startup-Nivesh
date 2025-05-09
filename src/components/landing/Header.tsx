@@ -52,7 +52,7 @@ export function Header() {
             </Button>
           ))}
           <Button variant="default" className="bg-accent hover:bg-accent/90 text-accent-foreground ml-2" asChild>
-            <Link href="#apply-now-final" >Apply Now &rarr;</Link>
+            <Link href="https://docs.google.com/forms/d/19bLJhT-jui_GFCeY3S0Lldpyr8BVm4YDWwubr-76HJg/viewform" >Apply Now &rarr;</Link>
           </Button>
         </nav>
         <div className="md:hidden">
@@ -77,7 +77,7 @@ export function Header() {
                   </Link>
                 ))}
                 <Button variant="default" className="bg-accent hover:bg-accent/90 text-accent-foreground mt-4" asChild>
-                  <Link href="https://docs.google.com/forms/d/19bLJhT-jui_GFCeY3S0Lldpyr8BVm4YDWwubr-76HJg/viewform?edit_requested=true&pli=1" onClick={() => setOpenMobileMenu(false)}>Apply Now &rarr;</Link>
+                  <Link href="https://docs.google.com/forms/d/19bLJhT-jui_GFCeY3S0Lldpyr8BVm4YDWwubr-76HJg/viewform" onClick={() => setOpenMobileMenu(false)}>Apply Now &rarr;</Link>
                 </Button>
               </nav>
             </SheetContent>
