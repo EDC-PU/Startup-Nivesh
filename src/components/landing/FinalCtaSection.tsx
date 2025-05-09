@@ -34,7 +34,7 @@ export function FinalCtaSection() {
             <InfoCard icon={Phone} title="Call Us (Option 2)" value="+91 9016229329" href="tel:+919016229329" />
         </div>
         <p className="mt-12 text-sm text-primary-foreground/70">
-            © {new Date().getFullYear()} Startup Nivesh | PIERC, Parul University. All rights reserved.
+            © {new Date().getFullYear()} PIERC, Parul University. All rights reserved.
         </p>
       </div>
     </Section>
