@@ -1,5 +1,5 @@
 'use client';
-
+import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
@@ -35,19 +35,24 @@ export function Header() {
         isScrolled ? 'bg-background/90 shadow-md backdrop-blur-sm' : 'bg-transparent'
       )}
     >
-      <div className="container mx-auto flex h-16 items-center justify-between px-4 md:h-20 md:px-6">
-        <Link href="#hero" className="flex items-center gap-2 text-xl font-semibold" scroll={false}>
-          <Rocket className="h-7 w-7 text-primary" />
-          <span>Startup Nivesh 1.0</span>
-        </Link>
+    <div className="container mx-auto flex h-28 items-center justify-between px-8 md:h-32 md:px-12">
+  <Link href="https://www.pierc.org" className="flex items-center gap-2 text-xl font-semibold">
+    <Image
+      src="https://www.pierc.org/_next/static/media/PIERC.959ad75d.svg"
+      alt="PIERC Logo"
+      width={125}
+      height={125}
+    />
+  </Link>
+
         <nav className="hidden items-center gap-2 md:flex">
           {navLinks.map((link) => (
             <Button key={link.href} variant="ghost" asChild size="sm">
-              <Link href={link.href} scroll={false}>{link.label}</Link>
+              <Link href={link.href} >{link.label}</Link>
             </Button>
           ))}
           <Button variant="default" className="bg-accent hover:bg-accent/90 text-accent-foreground ml-2" asChild>
-            <Link href="#apply-now-final" scroll={false}>Apply Now &rarr;</Link>
+            <Link href="#apply-now-final" >Apply Now &rarr;</Link>
           </Button>
         </nav>
         <div className="md:hidden">
@@ -66,13 +71,13 @@ export function Header() {
                     href={link.href}
                     className="text-lg font-medium hover:text-primary transition-colors"
                     onClick={() => setOpenMobileMenu(false)}
-                    scroll={false}
+                   
                   >
                     {link.label}
                   </Link>
                 ))}
                 <Button variant="default" className="bg-accent hover:bg-accent/90 text-accent-foreground mt-4" asChild>
-                  <Link href="#apply-now-final" scroll={false} onClick={() => setOpenMobileMenu(false)}>Apply Now &rarr;</Link>
+                  <Link href="https://docs.google.com/forms/d/19bLJhT-jui_GFCeY3S0Lldpyr8BVm4YDWwubr-76HJg/viewform?edit_requested=true&pli=1" onClick={() => setOpenMobileMenu(false)}>Apply Now &rarr;</Link>
                 </Button>
               </nav>
             </SheetContent>

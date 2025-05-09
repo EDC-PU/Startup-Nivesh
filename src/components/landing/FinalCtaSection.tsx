@@ -6,9 +6,9 @@ import { Rocket, CalendarClock, MapPin, Mail, Phone } from 'lucide-react';
 
 export function FinalCtaSection() {
   return (
-    <Section id="apply-now-final" className="bg-primary text-primary-foreground">
+    <Section id="apply-now-final" className="py-8 md:py-12 lg:py-24 bg-primary text-primary-foreground">
       <div className="container mx-auto text-center">
-        <Rocket className="h-16 w-16 mx-auto mb-6 text-accent-foreground animate-bounce" />
+        <Rocket className="h-16 w-16 mx-auto text-accent-foreground animate-bounce" />
         <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
           Final Call to All Indian Startups!
         </h2>
@@ -18,10 +18,10 @@ export function FinalCtaSection() {
         <div className="mt-10">
           <Button
             size="lg"
-            className="bg-accent hover:bg-accent/90 text-accent-foreground text-lg px-10 py-6 shadow-xl transform hover:scale-105 transition-transform duration-200"
+            className="bg-white hover:bg-accent/90 text-black text-lg px-10 py-6 shadow-xl transform hover:scale-105 transition-transform duration-200"
             asChild
           >
-            <Link href="https://docs.google.com/forms/d/19bLJhT-jui_GFCeY3S0Lldpyr8BVm4YDWwubr-76HJg/viewform?edit_requested=true&pli=1" scroll={false}>Apply Now &rarr;</Link>
+            <Link href="https://docs.google.com/forms/d/19bLJhT-jui_GFCeY3S0Lldpyr8BVm4YDWwubr-76HJg/viewform?edit_requested=true&pli=1">Apply Now &rarr;</Link>
           </Button>
         </div>
         <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-left">

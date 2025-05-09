@@ -73,7 +73,7 @@ export function ApplicationProcessSection() {
                   <p className="text-muted-foreground mb-4">{item.description}</p>
                   {item.action && (
                     <Button variant="outline" asChild className="border-accent text-accent hover:bg-accent hover:text-accent-foreground">
-                      <Link href={item.action.href} scroll={false}>{item.action.text}</Link>
+                      <Link href={item.action.href}>{item.action.text}</Link>
                     </Button>
                   )}
                 </CardContent>
