@@ -16,8 +16,8 @@ const processSteps = [
     description: 'Submit your startup details through our online application form.',
     icon: FileText,
     action: {
-      text: 'Link to Form 🔗',
-      href: '#apply-now-final',
+      text: 'Apply Now 🔗',
+      href: 'https://docs.google.com/forms/d/19bLJhT-jui_GFCeY3S0Lldpyr8BVm4YDWwubr-76HJg/viewform',
     },
   },
   {
