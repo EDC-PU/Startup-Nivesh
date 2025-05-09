@@ -4,23 +4,23 @@
  * based on provided landing page content.
  *
  * - runFaqGenerator - A function that takes landing page content and returns generated FAQs.
- * - FaqGeneratorInputSchema - The Zod schema for the input to the FAQ generator.
- * - FaqGeneratorOutputSchema - The Zod schema for the output from the FAQ generator.
+ * - FaqGeneratorInput - The Zod schema for the input to the FAQ generator.
+ * - FaqGeneratorOutput - The Zod schema for the output from the FAQ generator.
  */
 
 import { ai } from '@/ai/genkit';
-import { z } from 'genkit/zod';
+import { z } from 'zod';
 
-export const FaqGeneratorInputSchema = z.string().describe('The full text content of the landing page.');
+const FaqGeneratorInputSchema = z.string().describe('The full text content of the landing page.');
 export type FaqGeneratorInput = z.infer<typeof FaqGeneratorInputSchema>;
 
-export const FAQItemSchema = z.object({
+const FAQItemSchema = z.object({
   question: z.string().describe('A frequently asked question.'),
   answer: z.string().describe('The answer to the question.'),
 });
 export type FAQItem = z.infer<typeof FAQItemSchema>;
 
-export const FaqGeneratorOutputSchema = z.array(FAQItemSchema).describe('An array of generated FAQ items.');
+const FaqGeneratorOutputSchema = z.array(FAQItemSchema).describe('An array of generated FAQ items.');
 export type FaqGeneratorOutput = z.infer<typeof FaqGeneratorOutputSchema>;
 
 export async function runFaqGenerator(landingPageContent: FaqGeneratorInput): Promise<FaqGeneratorOutput> {
