@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { GeistSans } from 'geist/font/sans';
 import { GeistMono } from 'geist/font/mono';
+import { Analytics } from "@vercel/analytics/next";
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 import { Header } from '@/components/landing/Header';
@@ -19,6 +20,7 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <body className={`${GeistSans.variable} ${GeistMono.variable} font-sans antialiased`}>
         <Header />
+         <Analytics />
         {children}
         <Toaster />
       </body>
