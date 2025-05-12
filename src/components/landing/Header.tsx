@@ -1,8 +1,4 @@
 'use client';
-import PIERCLogo from '@/app/PIERC.svg';
-
-<PIERCLogo width={125} height={125} />
-
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
@@ -41,12 +37,12 @@ export function Header() {
     >
     <div className="container mx-auto flex h-28 items-center justify-between px-8 md:h-32 md:px-12">
   <Link href="https://www.pierc.org" className="flex items-center gap-2 text-xl font-semibold">
-    <Image
-      src= {PIERCLogo}
-      alt="PIERC Logo"
-      width={125}
-      height={125}
-    />
+<Image
+  src="https://mnaignsupdlayf72.public.blob.vercel-storage.com/PIERC-QpTqiJbHfSboltMajU7Otvrkh0IItG.svg"
+  alt="PIERC Logo"
+  width={125}
+  height={125}
+/>
   </Link>
 
         <nav className="hidden items-center gap-2 md:flex">
