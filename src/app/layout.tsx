@@ -5,6 +5,8 @@ import { Analytics } from "@vercel/analytics/next";
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 import { Header } from '@/components/landing/Header';
+import BubbleEffect from '@/components/landing/BubbleEffect';
+
 
 export const metadata: Metadata = {
   title: 'Startup Nivesh 1.0 - Funding Commited',
@@ -19,6 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body className={`${GeistSans.variable} ${GeistMono.variable} font-sans antialiased`}>
+        
         <Header />
          <Analytics />
         {children}

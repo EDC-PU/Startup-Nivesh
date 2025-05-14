@@ -127,3 +127,48 @@ body {
     @apply hover:text-white hover:underline transition-colors duration-300;
   }
 }
+
+@keyframes rise {
+  0% {
+    transform: translateY(100vh);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+}
+
+/* Ensure the bubble container takes up the full viewport */
+.bubble-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none; /* To prevent the bubbles from interfering with interactions */
+  z-index: 1; /* Make sure bubbles are on top of other content */
+}
+
+.bubble {
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5); /* White bubbles */
+  opacity: 0;
+  animation: bubbleAnimation 6s infinite;
+}
+
+@keyframes bubbleAnimation {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-100vh); /* Bubbles will move upwards */
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(-200vh); /* Continue moving upwards */
+    opacity: 0;
+  }
+}
