@@ -13,6 +13,7 @@ interface FactItem {
 const facts: FactItem[] = [
   { icon: Award, title: 'Event Name', value: 'Startup Nivesh 1.0' },
   { icon: CalendarDays, title: 'Event Dates', value: '27-28 June 2025' },
+  { icon: DollarSign, title: 'Funding Cap', value: '20 Lacs - 1 Crore' },
   { icon: Building2, title: 'Organized By', value: 'PIERC, Parul University' },
   { icon: MapPin, title: 'Location', value: 'Vadodara, Gujarat (Parul University Campus)' },
   { icon: ListChecks, title: 'Startups Selected', value: 'Top 30 from across India' },
@@ -21,6 +22,7 @@ const facts: FactItem[] = [
   { icon: CalendarClock, title: 'Application Deadline', value: '30th May 2025' },
   { icon: Mail, title: 'Email Contact', value: 'startupnivesh.pierc@paruluniversity.ac.in', href: 'mailto:startupnivesh.pierc@paruluniversity.ac.in' },
   { icon: Phone, title: 'Phone Contact', value: '+91 6358915335 | +91 9016229329', href: 'tel:+916358915335' },
+  
 ];
 
 export function QuickFactsSection() {
