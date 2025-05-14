@@ -73,15 +73,21 @@ export default function Home() {
       </Head>
 
       <main className="flex flex-col min-h-screen">
-        <HeroSection />
-        <QuickFactsSection />
+        <div className="bg-gradient-to-b from-[#0f0f10] via-[#150020] to-[#3f0071] text-white">
+          <HeroSection />
+          <QuickFactsSection />
+        </div>       
         <ValuePropositionSection />
         <EligibilitySection />
         <ApplicationProcessSection />
         <EventAgendaSection />
-        <LearnMoreSection />
-        <FaqSection />
-        <FinalCtaSection />
+       
+         <div className="bg-gradient-to-b from-[#0f0f10] via-[#150020] to-[#3f0071] text-white">
+            <LearnMoreSection />
+           <FaqSection />
+            <FinalCtaSection />
+        </div>   
+      
       </main>
     </>
   );

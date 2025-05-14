@@ -77,7 +77,7 @@ export async function FaqSection() {
 
 
   return (
-    <Section id="faq" className="bg-secondary">
+    <Section id="faq" className="bg-transparent">
       <SectionTitle>Frequently Asked Questions</SectionTitle>
       <SectionSubtitle>
         Got questions? We&apos;ve got answers. If you don&apos;t find what you&apos;re looking for, feel free to reach out.

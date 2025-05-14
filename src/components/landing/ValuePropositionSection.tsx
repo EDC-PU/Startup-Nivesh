@@ -1,6 +1,14 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Section, SectionTitle } from '@/components/landing/Section';
-import { CheckCircle2, DollarSignIcon, UsersIcon, TrendingUpIcon, ListChecksIcon, MessageSquareIcon, BrainIcon } from 'lucide-react';
+import {
+  CheckCircle2,
+  DollarSignIcon,
+  UsersIcon,
+  TrendingUpIcon,
+  ListChecksIcon,
+  MessageSquareIcon,
+  BrainIcon,
+} from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 
 interface PropositionItem {
@@ -24,15 +32,20 @@ export function ValuePropositionSection() {
       <SectionTitle>Why Apply for Startup Nivesh 1.0?</SectionTitle>
       <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
         {propositions.map((prop, index) => (
-          <Card key={index} className="shadow-lg hover:shadow-xl transition-shadow duration-300 transform hover:-translate-y-1">
+          <Card
+            key={index}
+            className="group bg-card text-card-foreground shadow-lg transition-all duration-300 transform hover:-translate-y-1 hover:shadow-[0_0_25px_4px_rgba(168,85,247,0.25)] border border-transparent hover:border-purple-500"
+          >
             <CardHeader>
               <div className="flex items-center gap-3">
-                <prop.icon className="h-10 w-10 text-primary mb-2" />
+                <prop.icon className="h-10 w-10 text-primary transition-colors duration-300 group-hover:text-purple-400" />
                 <CardTitle className="text-xl font-semibold">{prop.title}</CardTitle>
               </div>
             </CardHeader>
             <CardContent>
-              <p className="text-muted-foreground">{prop.description}</p>
+              <p className="text-muted-foreground group-hover:text-foreground transition-colors duration-300">
+                {prop.description}
+              </p>
             </CardContent>
           </Card>
         ))}
