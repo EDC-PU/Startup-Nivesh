@@ -28,12 +28,12 @@ export default function Home() {
         <meta property="og:title" content="Startup Nivesh 1.0 – Assured Funding for Indian Startups" />
         <meta property="og:description" content="30 startups. 20+ investors. Real funding guaranteed. Apply by May 30th, 2025." />
         <meta property="og:url" content="https://startupnivesh.pierc.org" />
-        <meta property="og:image" content="https://www.pierc.org/assets/mainBgImage.png" />
+        <meta property="og:image:secure_url" content="https://www.pierc.org/assets/mainBgImage.png" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Startup Nivesh 1.0 – Assured Startup Funding in India" />
         <meta name="twitter:description" content="Pitch your startup at India’s most result-oriented demo day. Hosted by PIERC, Parul University." />
-        <meta name="twitter:image" content="https://www.pierc.org/assets/mainBgImage.png" />
+        <meta name="twitter:image:secure_url" content="https://www.pierc.org/assets/mainBgImage.png" />
         <link rel="canonical" href="https://startupnivesh.pierc.org" />
         <script
           type="application/ld+json"
