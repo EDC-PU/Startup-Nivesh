@@ -8,6 +8,43 @@ body {
   scroll-behavior: smooth;
 }
 
+
+.AnnouncementNavbar {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1050; 
+} 
+
+.AnnouncementNavbar p {
+  color: aliceblue;
+  text-align: center;
+  padding-top: 5px;
+  font-weight: 600;
+  padding-top: 20px;
+  font-size: 12px;
+  max-height: 5px !important;
+  animation: blink 1s infinite !important; 
+  text-decoration: none;
+}
+
+.AnnouncementNavbar p:hover {
+  text-decoration: underline;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
 @layer base {
   :root {
     --background: 240 10% 10%;
