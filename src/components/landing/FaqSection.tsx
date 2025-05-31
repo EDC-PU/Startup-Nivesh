@@ -16,7 +16,7 @@ It connects 30 selected startups with 20+ investors, guaranteeing funding for at
 Benefits include assured funding, top-tier investor access, media exposure, mentorship, and 1:1 investor meetings.
 Open to MVP, revenue, or scaling stage startups from any sector in India.
 Application process: Form -> Shortlisting -> Finalist Announcement -> Pitch Training -> Live Pitch.
-Application deadline: 30th May 2025. Contact: startupnivesh.pierc@paruluniversity.ac.in, +91 6358915335, +91 9016229329.
+Application deadline: 8th June, 2025. Contact: startupnivesh.pierc@paruluniversity.ac.in, +91 6358915335, +91 9016229329.
 Physical presence required if selected.
 `;
 

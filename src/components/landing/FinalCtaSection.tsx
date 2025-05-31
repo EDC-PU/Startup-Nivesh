@@ -78,7 +78,7 @@ export function FinalCtaSection() {
 }
 
 const infoCards = [
-  { icon: CalendarClock, title: 'Application Deadline', value: '30th May 2025' },
+  { icon: CalendarClock, title: 'Application Deadline', value: '8th June, 2025' },
   { icon: MapPin, title: 'Event Venue', value: 'Parul University, Vadodara' },
   { icon: Mail, title: 'Email Us', value: 'startupnivesh.pierc@paruluniversity.ac.in', href: 'mailto:startupnivesh.pierc@paruluniversity.ac.in' },
   { icon: Phone, title: 'Call Us (Option 1)', value: '+91 6358915335', href: 'tel:+916358915335' },
