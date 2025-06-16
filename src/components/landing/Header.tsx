@@ -37,7 +37,7 @@ export function Header() {
     >
     <div className="container mx-auto flex h-28 items-center justify-between px-8 md:h-32 md:px-12">
       <div className='AnnouncementNavbar'><Link href="https://docs.google.com/forms/d/e/1FAIpQLSehZhH-dsDPzArewutZRk_QC7J2-h8Ahn-PGyiBY30F5xZVTw/viewform"  target="_blank" rel="noopener noreferrer"><p>
-Application Deadline Extended till 8th June 2025  </p></Link></div> 
+Applications Closed!  </p></Link></div> 
   <Link href="https://www.pierc.org" className="flex items-center gap-2 text-xl font-semibold">
 <Image
   src="https://mnaignsupdlayf72.public.blob.vercel-storage.com/PIERC-MrlEljx4bwmisMpG9ujfHPU9zm8tiC.svg"
