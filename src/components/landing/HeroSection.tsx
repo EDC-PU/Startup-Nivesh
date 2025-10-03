@@ -49,8 +49,9 @@ export function HeroSection() {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="max-w-2xl mx-auto text-lg text-muted-foreground md:text-xl transition-opacity duration-300 hover:opacity-90"
         >
-          India’s most outcome-driven Demo Day is here!
-          30 handpicked startups. 20+ active investors. Assured minimum 3 startup investments — and many more possibilities.
+          India’s most outcome-driven investment platform — a 3-day arena where 30 exceptional startups meet 20+ high-intent investors.
+          This is not a pitch marathon. It’s a deal-making ground designed to close real investments.
+
         </motion.p>
 
         <motion.div
