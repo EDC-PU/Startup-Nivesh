@@ -6,7 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CalendarDays, Mic, Users, Award, Utensils } from "lucide-react";
 
 const agenda = {
-  format: "3-Day Investment Showcase & Pitching",
+  format: "Day 1: Inauguration + Open Pitching | 22nd Jan 2026 (Thursday)",
   day1Title: "Day 1: Inauguration + Open Pitching | 22nd Jan 2026 (Thursday)",
   day1: [
     { time: "10:30 AM – 11:00 AM", activity: "Inauguration Ceremony of VSF 6.0", icon: CalendarDays },
