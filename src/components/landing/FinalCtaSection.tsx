@@ -43,7 +43,7 @@ export function FinalCtaSection() {
             asChild
           >
             <Link
-              href="https://docs.google.com/forms/d/19bLJhT-jui_GFCeY3S0Lldpyr8BVm4YDWwubr-76HJg/viewform?edit_requested=true&pli=1"
+              href="https://forms.gle/PY3SZPj5b5WgZthe7"
               target="_blank"
             >
               Apply Now &rarr;
@@ -78,11 +78,11 @@ export function FinalCtaSection() {
 }
 
 const infoCards = [
-  { icon: CalendarClock, title: 'Application Deadline', value: '8th June, 2025' },
+  { icon: CalendarClock, title: 'Application Deadline', value: '5th November, 2025' },
   { icon: MapPin, title: 'Event Venue', value: 'Parul University, Vadodara' },
   { icon: Mail, title: 'Email Us', value: 'startupnivesh.pierc@paruluniversity.ac.in', href: 'mailto:startupnivesh.pierc@paruluniversity.ac.in' },
-  { icon: Phone, title: 'Call Us (Option 1)', value: '+91 6358915335', href: 'tel:+916358915335' },
-  { icon: Phone, title: 'Call Us (Option 2)', value: '+91 9016229329', href: 'tel:+919016229329' },
+  { icon: Phone, title: 'Call Us (Option 1)', value: '+91 9016229329', href: 'tel:+919016229329' },
+  { icon: Phone, title: 'Call Us (Option 2)', value: '+91 6358915335', href: 'tel:+916358915335' },
 ];
 
 interface InfoCardProps {

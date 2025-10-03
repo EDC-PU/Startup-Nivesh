@@ -17,7 +17,7 @@ const processSteps = [
     icon: FileText,
     action: {
       text: 'Apply Now 🔗',
-      href: 'https://docs.google.com/forms/d/19bLJhT-jui_GFCeY3S0Lldpyr8BVm4YDWwubr-76HJg/viewform',
+      href: 'https://forms.gle/PY3SZPj5b5WgZthe7',
     },
   },
   {

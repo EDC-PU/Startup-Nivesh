@@ -33,7 +33,7 @@ export function HeroSection() {
           className="text-4xl font-extrabold sm:text-5xl md:text-6xl lg:text-7xl group"
         >
           <span className="block leading-snug group-hover:opacity-90 transition-opacity duration-300">
-            Startup Nivesh 1.0 –
+            Startup Nivesh 2.0 –
           </span>
           <span className="block text-primary text-3xl leading-snug group-hover:text-accent transition-colors duration-300">
             Where Funding is Not a Chance,
@@ -64,7 +64,7 @@ export function HeroSection() {
             className="bg-accent hover:bg-accent/90 text-accent-foreground text-lg px-8 py-6 shadow-lg transform transition duration-200 hover:scale-105 hover:shadow-xl active:scale-100"
             asChild
           >
-            <Link href="https://docs.google.com/forms/d/19bLJhT-jui_GFCeY3S0Lldpyr8BVm4YDWwubr-76HJg/viewform">
+            <Link href="https://forms.gle/PY3SZPj5b5WgZthe7">
               Apply Now &rarr;
             </Link>
           </Button>
@@ -72,7 +72,7 @@ export function HeroSection() {
           <div className="text-center sm:text-left">
             <p className="text-sm font-semibold text-foreground">Application Deadline:</p>
             <p className="text-lg font-bold text-primary transition-colors duration-300 hover:text-accent">
-              8th June 2025
+              5th Nov, 2025
             </p>
           </div>
         </motion.div>

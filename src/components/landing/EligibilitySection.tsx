@@ -28,11 +28,10 @@ function MapPin(props: React.SVGProps<SVGSVGElement>) {
 }
 
 const eligibilityCriteria = [
-  { icon: Rocket, text: "Startups at MVP, revenue, or scaling stage" },
-  { icon: Briefcase, text: "Any sector or domain" },
-  { icon: MapPin, text: "From any part of India" },
-  { icon: Users, text: "Startup teams with a strong pitch and vision to grow" },
-  { icon: BarChart, text: "Prior funding is not a barrier — we welcome all growth-stage founders" },
+  { icon: Rocket, text: "Startups with  MVP, Early Revenue & Growth Stage" },
+  { icon: Briefcase, text: "Incorporated as a Private Limited and DPIIT Certificate" },
+  { icon: MapPin, text: "From any domain, anywhere in India" },
+  { icon: Users, text: "Seeking ₹20 Lakhs – ₹2 Crore funding" },
 ];
 
 export function EligibilitySection() {

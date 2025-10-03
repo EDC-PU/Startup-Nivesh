@@ -18,18 +18,18 @@ interface PropositionItem {
 }
 
 const propositions: PropositionItem[] = [
-  { icon: DollarSignIcon, title: 'Assured Funding', description: 'Not just a pitch — real investment Assured for at least 3 startups.' },
-  { icon: UsersIcon, title: 'Top-tier Investors', description: 'Handpicked investors who are actually looking to invest.' },
-  { icon: TrendingUpIcon, title: 'Massive Exposure', description: 'Present your startup to media, ecosystem enablers, and top mentors.' },
-  { icon: ListChecksIcon, title: 'Curated Selection', description: 'Only the top 30 startups will be shortlisted for final pitching.' },
-  { icon: BrainIcon, title: 'Mentorship & Pitch Training', description: 'For the final selected startups.' },
-  { icon: MessageSquareIcon, title: 'One-on-One Investor Interactions', description: 'Real conversations that lead to real results.' },
+  { icon: DollarSignIcon, title: 'Funding That’s Real', description: 'Not promises, but cheques.Deals between ₹20 Lakhs – ₹2 Crore.' },
+  { icon: UsersIcon, title: 'Investor-First Platform ', description: 'Curated investors who are actively deploying.' },
+  { icon: TrendingUpIcon, title: 'Visibility & Validation ', description: 'National media spotlight, ecosystem credibility, mentor access.' },
+  { icon: ListChecksIcon, title: 'Elite Selection', description: 'Only 30 startups get into the final arena.' },
+  { icon: BrainIcon, title: 'Investor Readiness', description: 'Pitch training & mentorship before the big stage.' },
+  { icon: MessageSquareIcon, title: 'Focused Conversations' , description: '1:1 meetings that go beyond “let’s connect later.”' },
 ];
 
 export function ValuePropositionSection() {
   return (
     <Section id="why-apply">
-      <SectionTitle>Why Apply for Startup Nivesh 1.0?</SectionTitle>
+      <SectionTitle>Why Apply for Startup Nivesh 2.0?</SectionTitle>
       <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
         {propositions.map((prop, index) => (
           <Card

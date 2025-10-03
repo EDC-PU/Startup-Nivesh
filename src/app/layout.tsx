@@ -9,7 +9,7 @@ import BubbleEffect from '@/components/landing/BubbleEffect';
 
 
 export const metadata: Metadata = {
-  title: 'Startup Nivesh 1.0 - Funding Commited',
+  title: 'Startup Nivesh 2.0 - Funding Commited',
   description: 'India’s most outcome-driven Demo Day. 30 handpicked startups. 20+ active investors. Assured minimum 3 startup investments.',
 };
 

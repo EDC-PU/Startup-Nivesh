@@ -15,23 +15,23 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Startup Nivesh 1.0 – India’s Premier Demo Day for Startup Funding | PIERC</title>
+        <title>Startup Nivesh 2.0 – India’s Premier Demo Day for Startup Funding | PIERC</title>
         <meta
           name="description"
-          content="Apply to Startup Nivesh 1.0 – India’s most outcome-driven demo day hosted by PIERC at Parul University. 30 startups. 20+ investors. Assured investments."
+          content="Apply to Startup Nivesh 2.0 – India’s most outcome-driven demo day hosted by PIERC at Parul University. 30 startups. 20+ investors. Assured investments."
         />
         <meta
           name="keywords"
           content="Startup Nivesh, demo day India, startup funding 2025, pitch to investors, Parul University startups, Indian startup events"
         />
         <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="Startup Nivesh 1.0 – Assured Funding for Indian Startups" />
+        <meta property="og:title" content="Startup Nivesh 2.0 – Assured Funding for Indian Startups" />
         <meta property="og:description" content="30 startups. 20+ investors. Real funding guaranteed. Apply by May 30th, 2025." />
         <meta property="og:url" content="https://startupnivesh.pierc.org" />
         <meta property="og:image:secure_url" content="https://www.pierc.org/assets/mainBgImage.png" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Startup Nivesh 1.0 – Assured Startup Funding in India" />
+        <meta name="twitter:title" content="Startup Nivesh 2.0 – Assured Startup Funding in India" />
         <meta name="twitter:description" content="Pitch your startup at India’s most result-oriented demo day. Hosted by PIERC, Parul University." />
         <meta name="twitter:image:secure_url" content="https://www.pierc.org/assets/mainBgImage.png" />
         <link rel="canonical" href="https://startupnivesh.pierc.org" />
@@ -41,7 +41,7 @@ export default function Home() {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Event",
-              name: "Startup Nivesh 1.0",
+              name: "Startup Nivesh 2.0",
               startDate: "2025-06-27",
               endDate: "2025-06-28",
               eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",

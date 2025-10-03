@@ -35,9 +35,8 @@ export function Header() {
         isScrolled ? 'bg-background/90 shadow-md backdrop-blur-sm' : 'bg-transparent'
       )}
     >
-    <div className="container mx-auto flex h-28 items-center justify-between px-8 md:h-32 md:px-12">
-      <div className='AnnouncementNavbar'><Link href="https://docs.google.com/forms/d/e/1FAIpQLSehZhH-dsDPzArewutZRk_QC7J2-h8Ahn-PGyiBY30F5xZVTw/viewform"  target="_blank" rel="noopener noreferrer"><p>
-Applications Closed!</p></Link></div> 
+    <div className="container mx-auto flex h-24 items-center justify-between px-8 md:h-28 md:px-12">
+    
   <Link href="https://www.pierc.org" className="flex items-center gap-2 text-xl font-semibold">
 <Image
   src="https://mnaignsupdlayf72.public.blob.vercel-storage.com/PIERC-MrlEljx4bwmisMpG9ujfHPU9zm8tiC.svg"
@@ -54,7 +53,7 @@ Applications Closed!</p></Link></div>
             </Button>
           ))}
           <Button variant="default" className="bg-accent hover:bg-accent/90 text-accent-foreground ml-2" asChild>
-            <Link href="https://docs.google.com/forms/d/19bLJhT-jui_GFCeY3S0Lldpyr8BVm4YDWwubr-76HJg/viewform" >Apply Now &rarr;</Link>
+            <Link href="https://forms.gle/PY3SZPj5b5WgZthe7" >Apply Now &rarr;</Link>
           </Button>
         </nav>
         <div className="md:hidden">
@@ -79,7 +78,7 @@ Applications Closed!</p></Link></div>
                   </Link>
                 ))}
                 <Button variant="default" className="bg-accent hover:bg-accent/90 text-accent-foreground mt-4" asChild>
-                  <Link href="https://docs.google.com/forms/d/19bLJhT-jui_GFCeY3S0Lldpyr8BVm4YDWwubr-76HJg/viewform" onClick={() => setOpenMobileMenu(false)}>Apply Now &rarr;</Link>
+                  <Link href="https://forms.gle/PY3SZPj5b5WgZthe7" onClick={() => setOpenMobileMenu(false)}>Apply Now &rarr;</Link>
                 </Button>
               </nav>
             </SheetContent>

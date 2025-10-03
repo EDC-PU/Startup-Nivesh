@@ -4,7 +4,7 @@
 
 - Hero Display: Hero Section: Prominently display the event headline, subheadline, and CTA button.
 - Quick Facts: Quick Facts Grid: Present key event details in a visually appealing grid or using icons.
-- Value Proposition: Value Proposition Section: Clearly state the benefits of applying to Startup Nivesh 1.0 using concise bullet points.
+- Value Proposition: Value Proposition Section: Clearly state the benefits of applying to Startup Nivesh 2.0 using concise bullet points.
 - Application Process: Application Process: Outline the application steps in a numbered, easy-to-follow format with a direct link to the application form.  Link to form: [🔗 Link to Form]
 - FAQ Generation Tool: FAQ Generation: Use a generative AI tool to predict relevant questions based on the landing page copy and create an FAQ to display.
 
