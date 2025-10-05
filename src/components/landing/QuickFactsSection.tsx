@@ -27,12 +27,12 @@ interface FactItem {
 
 const facts: FactItem[] = [
   { icon: Award, title: 'Event Name', value: 'Startup Nivesh 2.0' },
-  { icon: CalendarDays, title: 'Event Dates', value: '22nd-24 Jan 2025' },
-  { icon: DollarSign, title: 'Funding Cap', value: '20 Lacs - 1 Crore' },
+  { icon: CalendarDays, title: 'Event Dates', value: '21-23 Jan 2025' },
+  { icon: DollarSign, title: 'Funding Cap', value: '20 Lacs - 2 Crore' },
   { icon: Building2, title: 'Organized By', value: 'PIERC, Parul University' },
   { icon: MapPin, title: 'Location', value: 'Vadodara, Gujarat (Parul University Campus)' },
   { icon: ListChecks, title: 'Startups Selected', value: 'Top 30 from across India' },
-  { icon: DollarSign, title: 'Assured Investment', value: 'Minimum 3 startups will be funded' },
+  { icon: DollarSign, title: 'Assured Investment', value: 'Three elite startups will gain access to in-house funding, strategic alliances, industrial networks,market acess, and streamlined market gateways.'},
   { icon: Handshake, title: 'Investors Joining', value: '20+ reputed investors & VCs' },
   { icon: CalendarClock, title: 'Application Deadline', value: '5th November 2025' },
   { icon: Mail, title: 'Email Contact', value: 'startupnivesh.pierc@paruluniversity.ac.in', href: 'mailto:startupnivesh.pierc@paruluniversity.ac.in' },

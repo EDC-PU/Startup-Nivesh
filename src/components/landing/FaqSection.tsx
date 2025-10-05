@@ -11,7 +11,7 @@ import { runFaqGenerator, type FAQItem } from '@/ai/flows/runFaqGenerator';
 // This text would ideally be dynamically constructed from all page sections.
 // For simplicity in this example, we'll use a predefined summary.
 const landingPageContentSummary = `
-Startup Nivesh 2.0 is an outcome-driven Demo Day by PIERC, Parul University in Vadodara, Gujarat on 22-24 January, 2026.
+Startup Nivesh 2.0 is an outcome-driven Demo Day by PIERC, Parul University in Vadodara, Gujarat on 21-23 January, 2026.
 It connects 30 selected startups with 20+ investors, guaranteeing funding for at least 3 startups.
 Benefits include assured funding, top-tier investor access, media exposure, mentorship, and 1:1 investor meetings.
 Open to MVP, revenue, or scaling stage startups from any sector in India.
@@ -47,7 +47,7 @@ const sampleFaqs: FAQItem[] = [
   },
   {
     question: "Q7. Do I need to be physically present?",
-    answer: "Yes. If selected, you must pitch live at PIERC, Parul University on 22-24 January, 2025."
+    answer: "Yes. If selected, you must pitch live at PIERC, Parul University on 21-23 January, 2025."
   }
 ];
 

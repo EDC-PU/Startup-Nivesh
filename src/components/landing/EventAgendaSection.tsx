@@ -6,8 +6,8 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CalendarDays, Mic, Users, Award, Utensils } from "lucide-react";
 
 const agenda = {
-  format: "Day 1: Inauguration + Open Pitching | 22nd Jan 2026 (Thursday)",
-  day1Title: "Day 1: Inauguration + Open Pitching | 22nd Jan 2026 (Thursday)",
+  format: "Day 1: Inauguration + Open Pitching | 21st Jan 2026 (Wednesday)",
+  day1Title: "Day 1: Inauguration + Open Pitching | 21st Jan 2026 (Wednesday)",
   day1: [
     { time: "10:30 AM – 11:00 AM", activity: "Inauguration Ceremony of VSF 6.0", icon: CalendarDays },
     { time: "12:30 PM – 01:00 PM", activity: "Campus Visit", icon: Users },
@@ -20,7 +20,7 @@ const agenda = {
     { time: "06:30 PM – 08:00 PM", activity: "Indoor/Outdoor Fun Activities & Games", icon: CalendarDays },
     { time: "08:00 PM – 09:30 PM", activity: "Networking Dinner", icon: Utensils },
   ],
-  day2Title: "Day 2: Open Pitching + One-to-One Investor Discussions | 23rd Jan 2026 (Friday)",
+  day2Title: "Day 2: Open Pitching + One-to-One Investor Discussions | 22nd Jan 2026 (Thursday)",
   day2: [
     { time: "09:30 AM – 10:30 AM", activity: "Breakfast", icon: Utensils },
     { time: "10:30 AM – 01:00 PM", activity: "Open Pitching (15 startups | One-to-Many)", icon: Mic },
@@ -29,7 +29,7 @@ const agenda = {
     { time: "03:30 PM – 04:00 PM", activity: "High Tea", icon: Utensils },
     { time: "04:00 PM – 06:00 PM", activity: "One-to-One Startup–Investor Discussions (4 startups per investor)", icon: Users },
   ],
-  day3Title: "Day 3: Final One-to-One Rounds + Valedictory | 24th Jan 2026 (Saturday)",
+  day3Title: "Day 3: Final One-to-One Rounds + Valedictory | 23rd Jan 2026 (Friday)",
   day3: [
     { time: "09:30 AM – 10:30 AM", activity: "Breakfast", icon: Utensils },
     { time: "10:30 AM – 01:00 PM", activity: "One-to-One Startup–Investor Discussions (5 startups per investor)", icon: Users },
