@@ -12,12 +12,12 @@ const learnMoreLinks = [
   {
     icon: Instagram,
     text: 'Explore Full Event Details on Instagram',
-    href: 'https://www.instagram.com/p/DJJ5Wfgsxf2/?igsh=ZHFra21iOXlvdjBn',
+    href: '',
   },
   {
     icon: FileText,
-    text: 'Download Brochure (PDF)',
-    href: 'https://firebasestorage.googleapis.com/v0/b/edc-pierc.appspot.com/o/Startup%20Demo%20Day%20investor.pdf?alt=media&token=74771085-142d-4130-99ed-a53888687537',
+    text: 'Brochure',
+    href: '',
     download: true,
   },
 ];
@@ -68,7 +68,8 @@ export function LearnMoreSection() {
                     rel="noopener noreferrer"
                     download={item.download}
                   >
-                    {item.download ? 'Download' : 'Explore'}
+                   Coming Soon!
+                  
                   </Link>
                 </Button>
               </CardContent>
