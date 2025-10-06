@@ -47,7 +47,7 @@ const sampleFaqs: FAQItem[] = [
   },
   {
     question: "Q7. Do I need to be physically present?",
-    answer: "Yes. If selected, you must pitch live at PIERC, Parul University on 21-23 January, 2025."
+    answer: "Yes. If selected, you must pitch live at PIERC, Parul University on 21-23 January, 2026."
   }
 ];
 

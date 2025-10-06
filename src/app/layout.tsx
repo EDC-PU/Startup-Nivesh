@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     'India’s most outcome-driven Demo Day. 30 handpicked startups. 20+ active investors. Assured minimum 3 startup investments.',
   keywords: [
     'Startup Funding India',
-    'Demo Day India 2025',
+    'Demo Day India 2026',
     'Startup Nivesh 2.0',
     'Indian Startup Investors',
     'Angel Investors India',
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     'Startup Accelerator India',
     'Best Startup Funding Events',
     'Indian Angel Networks',
-    'Startup Fundraising 2025',
+    'Startup Fundraising 2026',
   ],
   authors: [{ name: 'Startup Nivesh Team' }],
   openGraph: {

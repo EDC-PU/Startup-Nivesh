@@ -22,11 +22,11 @@ export default function Home() {
         />
         <meta
           name="keywords"
-          content="Startup Nivesh, demo day India, startup funding 2025, pitch to investors, Parul University startups, Indian startup events"
+          content="Startup Nivesh, demo day India, startup funding 2026, pitch to investors, Parul University startups, Indian startup events"
         />
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content="Startup Nivesh 2.0 – Assured Funding for Indian Startups" />
-        <meta property="og:description" content="30 startups. 20+ investors. Real funding guaranteed. Apply by May 30th, 2025." />
+        <meta property="og:description" content="30 startups. 20+ investors. Real funding guaranteed. Apply by November 5th, 2025." />
         <meta property="og:url" content="https://startupnivesh.pierc.org" />
         <meta property="og:image:secure_url" content="https://www.pierc.org/assets/mainBgImage.png" />
         <meta property="og:type" content="website" />
@@ -42,8 +42,8 @@ export default function Home() {
               "@context": "https://schema.org",
               "@type": "Event",
               name: "Startup Nivesh 2.0",
-              startDate: "2025-06-27",
-              endDate: "2025-06-28",
+              startDate: "2026-01-21",
+              endDate: "2026-01-23",
               eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
               eventStatus: "https://schema.org/EventScheduled",
               location: {
