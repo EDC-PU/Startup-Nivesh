@@ -4,9 +4,9 @@ import { google } from 'googleapis';
 import { z } from 'zod';
 
 const subscribeSchema = z.object({
-  name: z.string(),
-  email: z.string().email(),
-  phone: z.string(),
+  name: z.string().min(2, { message: 'Name must be at least 2 characters.' }),
+  email: z.string().email({ message: 'Please enter a valid email address.' }),
+  phone: z.string().min(10, { message: 'Phone number must be at least 10 digits.' }),
 });
 
 export async function subscribeToAction(formData: z.infer<typeof subscribeSchema>) {
@@ -28,7 +28,7 @@ export async function subscribeToAction(formData: z.infer<typeof subscribeSchema
       throw new Error('Google Sheet ID is not configured.');
     }
 
-    const range = 'Sheet1!A:D'; // Assuming headers are in Sheet1 and we append to columns A, B, C, D
+    const range = 'Sheet1!A:D';
     const valueInputOption = 'USER_ENTERED';
 
     const newRow = [
@@ -51,7 +51,10 @@ export async function subscribeToAction(formData: z.infer<typeof subscribeSchema
   } catch (error) {
     console.error('Error subscribing:', error);
     if (error instanceof z.ZodError) {
-      return { success: false, error: 'Invalid data provided.' };
+      const fieldErrors = Object.entries(error.flatten().fieldErrors)
+        .map(([field, messages]) => `${field}: ${messages.join(', ')}`)
+        .join('; ');
+      return { success: false, error: `Invalid data: ${fieldErrors}` };
     }
     return { success: false, error: error instanceof Error ? error.message : 'An unknown error occurred.' };
   }

@@ -94,7 +94,6 @@ export default function RootLayout({
       <body className={`${GeistSans.variable} ${GeistMono.variable} font-sans antialiased`}>
         
         <Header />
-         <Analytics />
         {children}
         <Toaster />
       </body>
