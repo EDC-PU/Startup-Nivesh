@@ -10,6 +10,7 @@ import { LearnMoreSection } from '@/components/landing/LearnMoreSection';
 import { FaqSection } from '@/components/landing/FaqSection';
 import { FinalCtaSection } from '@/components/landing/FinalCtaSection';
 import BubbleEffect from '@/components/landing/BubbleEffect';
+import { SubscriptionPopup } from '@/components/landing/SubscriptionPopup';
 
 export default function Home() {
   return (
@@ -74,8 +75,8 @@ export default function Home() {
         />
       </Head>
       <main className="flex flex-col min-h-screen relative">
-        
-      <div id="bubble-container" className="bubble-container fixed top-0 left-0 w-full h-full z-10 pointer-events-none"></div>
+        <SubscriptionPopup />
+        <div id="bubble-container" className="bubble-container fixed top-0 left-0 w-full h-full z-10 pointer-events-none"></div>
         <BubbleEffect />
         <div className="bg-gradient-to-b from-[#0f0f10] via-[#150020] to-[#3f0071] text-white">
           <HeroSection />
