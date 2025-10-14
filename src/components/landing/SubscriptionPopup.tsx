@@ -38,14 +38,10 @@ export function SubscriptionPopup() {
   const { toast } = useToast();
 
   useEffect(() => {
-    const hasBeenShown = localStorage.getItem('subscriptionPopupShown');
-    if (!hasBeenShown) {
-      const timer = setTimeout(() => {
-        setIsOpen(true);
-        localStorage.setItem('subscriptionPopupShown', 'true');
-      }, 2000); // Open after 2 seconds
-      return () => clearTimeout(timer);
-    }
+    const timer = setTimeout(() => {
+      setIsOpen(true);
+    }, 2000); // Open after 2 seconds
+    return () => clearTimeout(timer);
   }, []);
 
   const form = useForm<FormData>({
