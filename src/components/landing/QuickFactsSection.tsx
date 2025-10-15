@@ -36,7 +36,7 @@ const facts: FactItem[] = [
   { icon: Handshake, title: 'Investors Joining', value: '20+ reputed investors & VCs' },
   { icon: CalendarClock, title: 'Application Deadline', value: '5th November 2025' },
   { icon: Mail, title: 'Email Contact', value: 'startupnivesh.pierc@paruluniversity.ac.in', href: 'mailto:startupnivesh.pierc@paruluniversity.ac.in' },
-  { icon: Phone, title: 'Phone Contact', value: '+91 6358915335 | +91 9016229329', href: 'tel:+916358915335' },
+  { icon: Phone, title: 'Phone Contact', value: '+91 9016229329 | +91 6358915335 | ', href: 'tel:+919016229329' },
 ];
 
 export function QuickFactsSection() {
