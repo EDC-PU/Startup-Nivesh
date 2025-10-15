@@ -42,11 +42,7 @@ const sampleFaqs: FAQItem[] = [
     answer: "Only the top 30 startups (out of all applications) will be shortlisted for pitching on the Demo Day."
   },
   {
-    question: "Q6. Is investment Assured?",
-    answer: "We Assure that at least 3 startups will receive funding. There’s no upper cap."
-  },
-  {
-    question: "Q7. Do I need to be physically present?",
+    question: "Q6. Do I need to be physically present?",
     answer: "Yes. If selected, you must pitch live at PIERC, Parul University on 21-23 January, 2026."
   }
 ];
