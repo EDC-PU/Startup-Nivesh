@@ -3,40 +3,28 @@
 import { motion } from "framer-motion";
 import { Section, SectionTitle } from "@/components/landing/Section";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";  
-import { CalendarDays, Mic, Users, Award, Utensils } from "lucide-react";
+import { CalendarDays, Mic, Users, Award, Utensils, PartyPopper, Handshake } from "lucide-react";
 
 const agenda = {
-  format: "Day 1: Inauguration + Open Pitching | 21st Jan 2026 (Wednesday)",
-  day1Title: "Day 1: Inauguration + Open Pitching | 21st Jan 2026 (Wednesday)",
+  day1Title: "Day 1: Inauguration + Open Pitching | 21st Jan 2026",
   day1: [
-    { time: "10:30 AM – 11:00 AM", activity: "Inauguration Ceremony of VSF 6.0", icon: CalendarDays },
-    { time: "12:30 PM – 01:00 PM", activity: "Campus Visit", icon: Users },
-    { time: "01:00 PM – 02:00 PM", activity: "Lunch", icon: Utensils },
-    { time: "02:00 PM – 02:30 PM", activity: "Brief on Startup Nivesh 2.0", icon: Mic },
-    { time: "02:30 PM – 03:30 PM", activity: "Open Pitching – Round 1 (7 startups | One-to-Many | 7 min each: 5-min presentation + 2-min Q&A)", icon: Mic },
-    { time: "03:30 PM – 04:00 PM", activity: "High Tea", icon: Utensils },
-    { time: "04:00 PM – 05:30 PM", activity: "Open Pitching – Round 2 (8 startups | One-to-Many)", icon: Mic },
-    { time: "05:30 PM – 06:30 PM", activity: "Investor–Trustee Meeting with Top Management of Parul University", icon: Users },
-    { time: "06:30 PM – 08:00 PM", activity: "Indoor/Outdoor Fun Activities & Games", icon: CalendarDays },
-    { time: "08:00 PM – 09:30 PM", activity: "Networking Dinner", icon: Utensils },
+    { activity: "Inauguration Ceremony of VSF 6.0", icon: PartyPopper },
+    { activity: "Brief on Startup Nivesh 2.0", icon: Mic },
+    { activity: "Open Pitching", icon: Mic },
+    { activity: "Indoor/Outdoor Fun Activities & Games", icon: CalendarDays },
+    { activity: "Networking Dinner", icon: Utensils },
   ],
-  day2Title: "Day 2: Open Pitching + One-to-One Investor Discussions | 22nd Jan 2026 (Thursday)",
+  day2Title: "Day 2: Open Pitching + One-to-One Investor Discussions | 22nd Jan 2026",
   day2: [
-    { time: "09:30 AM – 10:30 AM", activity: "Breakfast", icon: Utensils },
-    { time: "10:30 AM – 01:00 PM", activity: "Open Pitching (15 startups | One-to-Many)", icon: Mic },
-    { time: "01:00 PM – 02:00 PM", activity: "Lunch", icon: Utensils },
-    { time: "02:00 PM – 03:30 PM", activity: "One-to-One Startup–Investor Discussions (3 startups per investor)", icon: Users },
-    { time: "03:30 PM – 04:00 PM", activity: "High Tea", icon: Utensils },
-    { time: "04:00 PM – 06:00 PM", activity: "One-to-One Startup–Investor Discussions (4 startups per investor)", icon: Users },
+    { activity: "Open Pitching", icon: Mic },
+    { activity: "One-to-One Startup–Investor Discussions", icon: Users },
+    { activity: "Networking Dinner", icon: Utensils },
   ],
-  day3Title: "Day 3: Final One-to-One Rounds + Valedictory | 23rd Jan 2026 (Friday)",
+  day3Title: "Day 3: Final One-to-One Rounds + Valedictory | 23rd Jan 2026",
   day3: [
-    { time: "09:30 AM – 10:30 AM", activity: "Breakfast", icon: Utensils },
-    { time: "10:30 AM – 01:00 PM", activity: "One-to-One Startup–Investor Discussions (5 startups per investor)", icon: Users },
-    { time: "01:00 PM – 02:00 PM", activity: "Lunch", icon: Utensils },
-    { time: "02:00 PM – 03:30 PM", activity: "One-to-One Startup–Investor Discussions (3 startups per investor)", icon: Users },
-    { time: "03:30 PM – 04:00 PM", activity: "High Tea", icon: Utensils },
-    { time: "04:00 PM – 06:00 PM", activity: "Valedictory Ceremony + LoI Announcements", icon: Award },
+    { activity: "One-to-One Startup–Investor Discussions", icon: Users },
+    { activity: "Valedictory Ceremony", icon: Award },
+    { activity: "LoI Announcements", icon: Handshake },
   ],
 };
 
@@ -47,7 +35,7 @@ export function EventAgendaSection() {
 
       <div className="max-w-4xl mx-auto space-y-12 px-4">
         {[ 
-          { title: agenda.format, items: agenda.day1 },
+          { title: agenda.day1Title, items: agenda.day1 },
           { title: agenda.day2Title, items: agenda.day2 },
           { title: agenda.day3Title, items: agenda.day3 },
 
@@ -72,7 +60,6 @@ export function EventAgendaSection() {
                     <li key={idx} className="flex items-start gap-3">
                       <item.icon className="h-5 w-5 text-accent flex-shrink-0 mt-1" />
                       <div>
-                        <span className="font-semibold">{item.time}:</span>{" "}
                         {item.activity}
                       </div>
                     </li>
