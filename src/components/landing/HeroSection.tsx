@@ -73,7 +73,7 @@ export function HeroSection() {
           <div className="text-center sm:text-left">
             <p className="text-sm font-semibold text-foreground">Application Deadline:</p>
             <p className="text-lg font-bold text-primary transition-colors duration-300 hover:text-accent">
-              5th Nov, 2025
+              9th Nov, 2025
             </p>
           </div>
         </motion.div>
