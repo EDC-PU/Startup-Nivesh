@@ -27,7 +27,7 @@ export function FinalCtaSection() {
       >
         <Rocket className="h-16 w-16 mx-auto text-accent-foreground animate-bounce" />
         <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
-          Final Call to All Indian Startups!
+           India's Most Premier Demo Day
         </h2>
         <p className="mt-4 max-w-xl mx-auto text-lg md:text-xl text-primary-foreground/90">
           Apply now. Secure your chance to be funded at one of the most outcome-driven demo days of 2025.
@@ -78,7 +78,7 @@ export function FinalCtaSection() {
 }
 
 const infoCards = [
-  { icon: CalendarClock, title: 'Application Deadline', value: '5th November, 2025' },
+  { icon: CalendarClock, title: 'Application Deadline', value: '9th November, 2025' },
   { icon: MapPin, title: 'Event Venue', value: 'Parul University, Vadodara' },
   { icon: Mail, title: 'Email Us', value: 'startupnivesh.pierc@paruluniversity.ac.in', href: 'mailto:startupnivesh.pierc@paruluniversity.ac.in' },
   { icon: Phone, title: 'Call Us (Option 1)', value: '+91 9016229329', href: 'tel:+919016229329' },
