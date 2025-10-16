@@ -18,7 +18,6 @@ const agenda = {
   day2: [
     { activity: "Open Pitching", icon: Mic },
     { activity: "One-to-One Startup–Investor Discussions", icon: Users },
-    { activity: "Networking Dinner", icon: Utensils },
   ],
   day3Title: "Day 3: Final One-to-One Rounds + Valedictory | 23rd Jan 2026",
   day3: [
