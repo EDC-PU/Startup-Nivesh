@@ -34,7 +34,7 @@ const facts: FactItem[] = [
   { icon: ListChecks, title: 'Startups Selected', value: 'Top 30 from across India' },
   { icon: DollarSign, title: 'Our Promise', value: 'Select startups will gain access to in-house funding, strategic alliances, industrial networks, market access, and streamlined market gateways.'},
   { icon: Handshake, title: 'Investors Joining', value: '20+ reputed Angels, HNIs, Family Offices & VCs' },
-  { icon: CalendarClock, title: 'Application Deadline', value: '16th November 2025 (Extended)' },
+  { icon: CalendarClock, title: 'Application Deadline', value: '23rd November 2025 (Extended)' },
   { icon: Mail, title: 'Email Contact', value: 'startupnivesh.pierc@paruluniversity.ac.in', href: 'mailto:startupnivesh.pierc@paruluniversity.ac.in' },
   { icon: Phone, title: 'Phone Contact', value: '+91 9016229329 | +91 6358915335', href: 'tel:+919016229329' },
 ];
