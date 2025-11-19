@@ -12,12 +12,12 @@ const learnMoreLinks = [
   {
     icon: Instagram,
     text: 'Explore Full Event Details on Instagram',
-    href: '',
+    href: 'https://www.instagram.com/p/DQRwwn2gXBF/?igsh=NjV5dGZiZG93ZjNu',
   },
   {
     icon: FileText,
     text: 'Brochure',
-    href: '',
+    href: 'https://drive.google.com/file/d/1Su8MQcsTYIt1j-gbzjLlZY9u0EkhJDUJ/view?usp=sharing',
     download: true,
   },
 ];
