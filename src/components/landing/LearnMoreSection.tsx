@@ -68,7 +68,7 @@ export function LearnMoreSection() {
                     rel="noopener noreferrer"
                     download={item.download}
                   >
-                   Coming Soon!
+                   View Now!
                   
                   </Link>
                 </Button>
