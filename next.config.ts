@@ -17,6 +17,15 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: '/:path*',
+        destination: 'https://www.pierc.org/startup-nivesh',
+        permanent: true,
+      },
+    ];
+  },
   webpack(config) {
     // Handling SVG files with @svgr/webpack
     config.module.rules.push({
