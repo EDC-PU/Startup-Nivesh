@@ -5,7 +5,10 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion';
-import { runFaqGenerator, type FAQItem } from '@/ai/flows/runFaqGenerator';
+export interface FAQItem {
+  question: string;
+  answer: string;
+}
 
 
 // This text would ideally be dynamically constructed from all page sections.
@@ -47,29 +50,8 @@ const sampleFaqs: FAQItem[] = [
   }
 ];
 
-export async function FaqSection() {
-  let faqs: FAQItem[] = [];
-
-  try {
-    const generatedFaqs = await runFaqGenerator(landingPageContentSummary);
-    if (generatedFaqs && generatedFaqs.length > 0) {
-      faqs = generatedFaqs;
-    } else {
-      console.warn("AI FAQ generation returned no FAQs or an empty list. Using sample FAQs as fallback.");
-      faqs = sampleFaqs;
-    }
-  } catch (error) {
-    console.error("Error generating FAQs with AI model:", error);
-    // Fallback to sample FAQs in case of any error
-    faqs = sampleFaqs;
-  }
-
-  if (!faqs || faqs.length === 0) {
-    // This case should ideally not be hit if sampleFaqs is always populated,
-    // but as a final fallback, ensure we have something to render.
-    console.warn("No FAQs available (neither generated nor sample). Using default sample FAQs.");
-    faqs = sampleFaqs;
-  }
+export function FaqSection() {
+  const faqs = sampleFaqs;
 
 
   return (
